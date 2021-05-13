@@ -1,8 +1,8 @@
-# sadfasd
+# Readme Generator
   
   ## Description 
 
-  as
+  This project was created to easily allow the user to create a proper Readme
 
   ## Table of Contents 
   - [Installation](#installation)
@@ -14,24 +14,25 @@
 
 
   ## Installation 
-  df
+  No installation required
 
 
   ## Usage
-  asdf
+  Creating a proper Readme
 
 
   ## License
-  MIT
+  None
 
   ## Contributer 
-  fsda
+  none
 
   ## Tests
-  f
+  
 
   ## Questions 
-  asdf
+  dado7639
+  danieldoerr7639@gmail.com
 
   
   
