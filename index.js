@@ -18,8 +18,13 @@ const questions = [
   },
   {
     type: "input",
-    message: "Write a description regarding your project.",
-    name: "description",
+    message: "Write a description regarding the installation process.",
+    name: "installation",
+  },
+  {
+    type: "input",
+    message: "Write a description regarding the usage of the project.",
+    name: "usage",
   },
   {
     type: "list",
@@ -29,7 +34,18 @@ const questions = [
   },
   {
     type: "input",
-    message: "What is your GitHub username?",
+    message:
+      "Please write out any contributer if you had any. If you had none, write none.",
+    name: "contribute",
+  },
+  {
+    type: "input",
+    message: "Please write any tests you did for your project.",
+    name: "test",
+  },
+  {
+    type: "input",
+    message: "Please enter your Github username",
     name: "github",
   },
   {
@@ -47,7 +63,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((data) => {
-    writeToFile("README.md", generateMarkdown({ ...data }));
+    writeToFile("README.md", generateMarkdown(data));
   });
 }
 
